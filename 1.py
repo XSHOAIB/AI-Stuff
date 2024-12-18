@@ -37,6 +37,9 @@ def check(choice):
         print('\n***Invalid Choice\n')
     RealTimeData()
 
+    while jugA == 4 or jugB == 4:
+        exit
+
 def RealTimeData():
     print(f'Jug A : {jugA}')
     print(f'Jug B : {jugB}')
